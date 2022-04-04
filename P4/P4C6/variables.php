@@ -22,5 +22,5 @@ if (isset($_COOKIE['LOGGED_USER']) || isset($_SESSION['LOGGED_USER'])) {
     ];
 }
 
-$rootPath = $_SERVER['DOCUMENT_ROOT'];
-$rootUrl = (!empty($_SERVER['HTTPS']) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . '/';
+$rootPath = $_SERVER['DOCUMENT_ROOT']."/php/OCR/WLF/P4/P4C6/";
+$rootUrl = (!empty($_SERVER['HTTPS']) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . '/php/OCR/WLF/P4/P4C6/';
