@@ -3,7 +3,7 @@
 $users = [
     [
         'full_name' => 'Mickaël Andrieu',
-        'email' => 'mickael.andrieu@exemple.com'
+        'email' => 'mickael.andrieu@exemple.com',
         'age' => 34,
     ],
     [
@@ -45,7 +45,7 @@ $recipes = [
     ],
 ];
 
-function display_recipe(array $recipe) : string
+function display_recipe(array $recipe)
 {
     $recipe_content = '';
 
